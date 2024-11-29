@@ -6,6 +6,11 @@
 .text-primary{
     color: #FD6E0A;
 }
+/* Header Related style start */
+.header{
+    background-color: #FFF8F3;
+}
+/* Header Related style end */
 
 .btn-primary{
      border-radius: 5px;
@@ -25,6 +30,7 @@ nav{
     display:flex;
     justify-content: space-between;
     align-items:center;
+    margin: 0 200px;
 
 
 }
@@ -52,4 +58,13 @@ nav ul li {
 nav ul li a{
     text-decoration:none;
     color: #474747;
+}
+
+.banner{
+    padding:30px 30px 30px 150px ;
+    display: flex;
+    align-items: center;
+
+.banner .profile-pic{
+width: 500px;
 }
