@@ -216,3 +216,14 @@ main section{
     text-align: center;
     margin: 20px auto ;
 }
+
+
+/* footer style star */
+
+footer{
+    display:flex;
+    background-color: #FFF8F3;
+    padding: 130px 230px;
+    margin-top: 50px;
+
+}
