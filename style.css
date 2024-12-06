@@ -190,10 +190,6 @@ main section{
     gap: 40px;
 }
 
-.resume-column-title{
-   
-}
-
 .resume-item-title{
     font-size: 25px;
     font-family:serif;
@@ -210,4 +206,13 @@ main section{
     font-size: 18px;
     color: #474747;
     font-family:serif;
+}
+
+.resume-container hr{
+    margin: 30px;
+}
+
+.download-cv{
+    text-align: center;
+    margin: 20px auto ;
 }
