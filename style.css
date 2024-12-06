@@ -39,7 +39,7 @@
     margin-bottom: 0px;
     color: #474747;
 }
-.banner_description{
+.banner-description{
     color: #474747;
     font-size: 25px;
     margin-top: 5px;
@@ -71,7 +71,7 @@ nav{
 
 }
 
-.nav_title{
+.nav-title{
 color: #181818; 
 font-size: 45px;  
 font-weight: 800; 
@@ -96,23 +96,118 @@ nav ul li a{
     color: #474747;
 }
 
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+main section{
+    margin-top: 120px;
+}
+
+
 .about{
     padding: 130px;
     border-radius: 10px;
     background: #FFF8F3;
-    margin: 130px 0px;
+    margin: 100px 0px;
 }
 
-.section_title{
-    color: #181818;
+.section-title{
+    color: #474747;
     text-align: center;
     font-size: 35px;
     font-weight: 700px;
 
+
 }
 
-.section_description{
+.section-description{
     color: #757575;
     text-align: center;
     font-size: 18px;
+    font-size: 20px;
+}
+
+
+.about-info-container{
+    display: flex;
+    justify-content:space-around;
+}
+
+.about-info{
+    text-align: center;
+}
+.info-title{
+    font-size: 20px;
+}
+.info-description{
+    font-size: 20px;
+    color: #757575;
+}
+
+/* skill related style */
+
+#what-i-do-description{
+    padding: 30px 150px;
+}
+
+.skills-container{
+  display: flex;
+  gap: 24px; ;
+
+}
+.skill{
+    background-color:#ffffff;
+    border-radius:5px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    padding: 20px;
+    font-family:serif; 
+    
+}
+.skill-title{
+    font-size: 25px;
+}
+
+.skill-description{
+    font-family:serif; 
+    color: #757575;
+    font-size: 20px;
+}
+
+/* Resume section style */
+
+.resume-column-title{
+    font-size: 25px;
+    font-weight: 700;
+    font-family:serif;
+    color: #474747;
+}
+
+.resume-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    gap: 40px;
+}
+
+.resume-column-title{
+   
+}
+
+.resume-item-title{
+    font-size: 25px;
+    font-family:serif;
+    color: #474747;
+}
+
+.resume-item-institute{
+    font-size: 18px;
+    color: #474747;
+    font-family:serif;
+}
+
+.resume-item-description{
+    font-size: 18px;
+    color: #474747;
+    font-family:serif;
 }
