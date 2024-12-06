@@ -9,10 +9,10 @@
 /* Header Related style start */
 .header{
     background-color: #FFF8F3;
-    background-image: url(images/header_bg.png);
+    background-image: url(images/header_bg.png), url(images/developer.png);
     background-repeat: no-repeat;
-    background-position:bottom right;
-
+    background-position:bottom right,top left;
+    
 }
 /* Header Related style end */
 .banner-content{
@@ -57,7 +57,8 @@
      font-weight: 700px;
      color: white;
      font-family:serif;
-     padding: 15px 35px;
+     padding: 15px 30px;
+     margin-right: 20px;
 
 }
 
